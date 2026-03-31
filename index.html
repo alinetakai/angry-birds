@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry Birds</title>
+    <link rel="shortcut icon" href="/sprites/bird.png" type="image/png">
+
+    <!--p5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    
+    <!--matter-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"
+      integrity="sha512-3CP+e7z5ieYYTIyvRvV3eGVYR67yXg5V2mWfg8pEJJd2mlh8tG/cnDv5scTmRztEYHTksBlpPOmxFOiMtHfZdQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="button" onclick="window.location.reload()"> Restaurar nivel do jogo </button>
+    
+    <!--scripts-->
+    <script src="BaseClass.js"></script>
+    <script src="Ground.js"></script>
+    <script src="Box.js"></script>
+    <script src="Pig.js"></script>
+    <script src="Log.js"></script>
+
+    <!--js principal-->
+    <script src="sketch.js"></script>
+    
+</body>
+</html>
